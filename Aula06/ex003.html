@@ -21,9 +21,13 @@
         *  O sinal de = em java script significa RECEBE;
         */
 
-      var nome = window.prompt('Qual o seu nome?')
-      window.alert ('É um grande prazer te conhecer, ' + nome + '!') // Concatenação em JS utiliza-se o sinal de +
-     
+        var n1 = Number.parseInt(window.prompt ('Digite um número')) // A minha váriavel N1 irá receber um número inteiro convertido utilizando o comando: parseInt.
+        var n2 = Number.parseFloat(window.prompt ('Digite outro número')) 
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a = ` + s) // Concatenação
+        // (number + number) para adição;
+        // (string + string) para concatenação
+        // O método ${var} é o que se chama uma linha de comando usando uma template string;
     </script>
 </body>
 </html>
